@@ -2,6 +2,9 @@
 
 The Stack Shack is a collection of AWS CloudFormation stacks that can be used to setup your new project.
 
+### Stacks
+* [Static Website, S3, SSL, CodeCommit](static-website-s3-codecommit)
+
 ### Best Practices
 Best practices dictates that each stack **should** include the following items.  
 
@@ -15,7 +18,3 @@ Best practices dictates that each stack **should** include the following items.
 |Monitoring|It is important to have a monitoring implementation that makes it easy for developers to visualize the state of the stack.|
 |DevOps|A system should be in place to alert developers when problems arise.  Developers should easily be able to asses the situation via the logs and monitors and quickly push out a hotfix if needed.|
 |Backup & Recovery|All persistent storage needs to have a backup and recovery plan that is easy to execute.|
-
-
-### Stacks
-* [Static Website, S3, SSL, CodeCommit](static-website-s3-codecommit)
