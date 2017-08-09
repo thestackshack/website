@@ -8,9 +8,6 @@ The Stack Shack is a collection of AWS CloudFormation stacks that can be used to
 ### Best Practices
 Best practices dictates that each stack **should** include the following items.  
 
-#### Security
-Use the latest security best practices.  SSL, IAM, KMS, VPN, etc...
-
 |Best Practice|Details|
 |-|-|
 |Security|Use the latest security best practices.  SSL, IAM, KMS, VPN, etc...|
