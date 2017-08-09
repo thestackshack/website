@@ -1,1 +1,4 @@
 theme: jekyll-theme-architect
+site.title: The Stack Shack
+site.description: A collection of CloudFormation stack and best practices
+site.show_downloads: false
