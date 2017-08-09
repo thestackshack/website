@@ -3,10 +3,13 @@
 The Stack Shack is a collection of AWS CloudFormation stacks that can be used to setup your new project.
 
 ### Stacks
-* [Static Website, S3, SSL, CodeCommit](static-website-s3-codecommit)
+* [Static Website, S3, SSL, CodeCommit](https://github.com/thestackshack/stacks/tree/master/static-website-s3-codecommit)
 
 ### Best Practices
 Best practices dictates that each stack **should** include the following items.  
+
+#### Security
+Use the latest security best practices.  SSL, IAM, KMS, VPN, etc...
 
 |Best Practice|Details|
 |-|-|
