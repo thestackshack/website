@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to The Stack Shack
 
-You can use the [editor on GitHub](https://github.com/thestackshack/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The Stack Shack is a collection of AWS CloudFormation stacks that can be used to setup your new project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Best Practices
+Best practices dictates that each stack **should** include the following items.  
 
-### Markdown
+|Best Practice|Details|
+|-|-|
+|Security|Use the latest security best practices.  SSL, IAM, KMS, VPN, etc...|
+|Auto Scaling|We want our apps to automatically handle increased traffic and at the same time reducing costs during decreased traffic.|
+|CI/CD|Continuous Integration & Continuous Delivery.  It must be fast and easy for a experienced and new developer to ship code to production.|
+|IaC|Infrastructure as Code.  All infrastructure changes should be done through CloudFormation.|
+|Logging|It is important to have a logging implementation that makes it easy for developers to track down bugs.|
+|Monitoring|It is important to have a monitoring implementation that makes it easy for developers to visualize the state of the stack.|
+|DevOps|A system should be in place to alert developers when problems arise.  Developers should easily be able to asses the situation via the logs and monitors and quickly push out a hotfix if needed.|
+|Backup & Recovery|All persistent storage needs to have a backup and recovery plan that is easy to execute.|
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thestackshack/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Stacks
+* [Static Website, S3, SSL, CodeCommit](static-website-s3-codecommit)
