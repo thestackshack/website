@@ -4,7 +4,8 @@ The Stack Shack is a collection of AWS CloudFormation stacks that can be used to
 
 ### Stacks
 * [Static Website, S3, SSL, CodeCommit, CI/CD](https://github.com/thestackshack/static-website-s3-codecommit)
-* [API Gateway, Lambda, GitHub, CI/CD](https://github.com/thestackshack/serverless-api-cicd)
+* [Serverless API with CI/CD](https://github.com/thestackshack/serverless-api-cicd)
+* [Serverless Contact Us Form](https://github.com/thestackshack/serverless-contact-us-form)
 
 ### Best Practices
 Best practices dictates that each stack **should** include the following items.  

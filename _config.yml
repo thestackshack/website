@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: The Stack Shack
 description: A collection of CloudFormation stacks and best practices
 show_downloads: false
-github_repository_url: https://github.com/thestackshack/stacks
+github_repository_url: https://github.com/thestackshack
