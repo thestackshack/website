@@ -14,7 +14,7 @@ Best practices dictates that each stack **should** include the following items.
 |-|-|
 |Security|Use the latest security best practices.  SSL, IAM, KMS, VPN, etc...|
 |Auto Scaling|We want our apps to automatically handle increased traffic but also be cheap to run.|
-|CI/CD|Continuous Integration & Continuous Delivery.  The litmus is how fast a new dev can ship code to production.|
+|CI/CD|Continuous Integration & Continuous Delivery.  The litmus test is how fast a new dev can ship code to production.|
 |IaC|Infrastructure as Code.  All infrastructure changes should be done through code.|
 |Logging|It is important to have a logging implementation that makes it easy for developers to track down bugs.|
 |Monitoring|It is important to have a monitoring implementation that makes it easy for developers to visualize the state of the stack.|
